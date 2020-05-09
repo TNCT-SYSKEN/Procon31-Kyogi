@@ -105,10 +105,10 @@
     <ClCompile Include="Json\test4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IOManager\Main.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Date\Map.cpp">
+    <ClCompile Include="Data\Map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -385,13 +385,13 @@
     </Xml>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IOManager\SystemManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Gui\test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Date\Map.h">
+    <ClInclude Include="SystemManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
