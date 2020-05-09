@@ -109,6 +109,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm\test3.cpp" />
+    <ClCompile Include="Date\Map.cpp" />
     <ClCompile Include="Json\test4.cpp" />
     <ClCompile Include="IOManager\Main.cpp" />
   </ItemGroup>
