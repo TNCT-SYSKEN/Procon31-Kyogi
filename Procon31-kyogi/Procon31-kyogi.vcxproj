@@ -109,9 +109,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm\test3.cpp" />
-    <ClCompile Include="Date\Map.cpp" />
+    <ClCompile Include="Data\Map.cpp" />
     <ClCompile Include="Json\test4.cpp" />
-    <ClCompile Include="IOManager\Main.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\engine\texture\box-shadow\128.png" />
@@ -238,9 +238,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Date\Map.h" />
+    <ClInclude Include="Data\Map.h" />
     <ClInclude Include="Gui\test.h" />
-    <ClInclude Include="IOManager\SystemManager.h" />
+    <ClInclude Include="SystemManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
