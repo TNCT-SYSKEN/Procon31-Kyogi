@@ -97,12 +97,15 @@
     <Filter Include="Resource Files\example\zip">
       <UniqueIdentifier>{81d8d80c-f0ce-492f-8fee-c5502c31bc0e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GUI">
-      <UniqueIdentifier>{fad2f195-14af-4b0e-ab5e-f3def5ac9077}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="Algorithm\test3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\test4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManager\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -377,5 +380,16 @@
     <Xml Include="App\example\config\config.xml">
       <Filter>Resource Files\example\config</Filter>
     </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IOManager\SystemManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Date\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
