@@ -239,6 +239,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Data\Field.h" />
     <ClInclude Include="Data\Map.h" />
     <ClInclude Include="Gui\test.h" />
     <ClInclude Include="SystemManager.h" />
