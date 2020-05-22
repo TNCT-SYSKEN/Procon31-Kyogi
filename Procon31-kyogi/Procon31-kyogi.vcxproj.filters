@@ -397,5 +397,8 @@
     <ClInclude Include="Data\Map.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Data\Field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
