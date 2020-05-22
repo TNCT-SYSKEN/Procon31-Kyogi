@@ -1,5 +1,6 @@
-#pragma once
 class InputOutput
 {
+	void InputOutputManager();
+
 };
 
