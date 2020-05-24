@@ -1,6 +1,7 @@
+#pragma once
+#include <Siv3D.hpp>
 class InputOutput
 {
-	void InputOutputManager();
-
+public:
+	void inputOutputManager();
 };
-
