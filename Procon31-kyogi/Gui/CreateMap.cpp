@@ -1,13 +1,14 @@
 #include"CreateMap.h"
+#include"CreateParts.h"
 #include"../Data/Field.h"
 
-void CreateMap::createMapFrame() {
-	Field field;
-	for (int i = 0; i < field.height; i++) {
-		for (int k = 0; k < field.width; k++) {
+Field field;
+CreateParts createParts;
 
-		}
-	}
+void CreateMap::createMapFrame() {
+	field.height = 10;
+	field.width = 10;
+	createParts.mapFrame(field.height,field.width);
 }
 
 void CreateMap::drawStatus() {

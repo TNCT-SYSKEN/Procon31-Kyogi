@@ -1,9 +1,10 @@
-#include<Siv3D.hpp>
+#pragma once
 class CreateMap
 {
+private:
 	void createMapFrame();
 	void drawStatus();
 	void drawAgents();
+public:
 	void createMapManager();
-
 };
