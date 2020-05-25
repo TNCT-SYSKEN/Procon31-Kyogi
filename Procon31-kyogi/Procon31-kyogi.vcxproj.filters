@@ -114,6 +114,9 @@
     <ClCompile Include="SystemManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -327,6 +330,10 @@
     <None Include="App\example\zip\zip_test.zip">
       <Filter>Resource Files\example\zip</Filter>
     </None>
+    <None Include="App\JsonData\command_5.json" />
+    <None Include="App\JsonData\field_0.json" />
+    <None Include="App\JsonData\command_6.json" />
+    <None Include="App\JsonData\field_1.json" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="App\engine\font\fontawesome\LICENSE.txt">
@@ -398,6 +405,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Data\Field.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
