@@ -11,6 +11,8 @@ int mas = 35;
 int bx = 50;
 int by = 175;
 
+MatchInfo mh;
+
 //Frame(横マス数,縦マス数)
 void CreateMapParts::mapFrame(const int x,const int y) {
 
@@ -53,14 +55,11 @@ void CreateMapParts::mapStatus(const int x,const int y,TileStatus status) {
 //Agent(x座標,y座標,0～1)
 void CreateMapParts::mapAgent(uint32_t x,uint32_t y,uint32_t teamID) {
     Circle circle(bx+ff(x)+17.5,by+ff(y)+17.5,15);
-    switch (teamID)
-    {
-    case 0:
+    if (mh.teamID == teamID) {
         circle.draw(Palette::Green);
-        break;
-    case 1:
+    }
+    else {
         circle.draw(Palette::Yellow);
-        break;
     }
 }
 
