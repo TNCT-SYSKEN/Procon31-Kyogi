@@ -109,7 +109,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm\test3.cpp" />
+    <ClCompile Include="Data\Field.cpp" />
     <ClCompile Include="Data\Map.cpp" />
+    <ClCompile Include="Gui\CreateMap.cpp" />
+    <ClCompile Include="Gui\CreateParts.cpp" />
+    <ClCompile Include="Gui\GuiManager.cpp" />
+    <ClCompile Include="Gui\InputOutput.cpp" />
     <ClCompile Include="Json\test4.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="SystemManager.cpp" />
@@ -239,7 +244,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Data\Field.h" />
     <ClInclude Include="Data\Map.h" />
+    <ClInclude Include="Gui\CreateMap.h" />
+    <ClInclude Include="Gui\CreateParts.h" />
+    <ClInclude Include="Gui\GuiManager.h" />
+    <ClInclude Include="Gui\InputOutput.h" />
     <ClInclude Include="Gui\test.h" />
     <ClInclude Include="SystemManager.h" />
   </ItemGroup>
