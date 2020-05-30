@@ -109,7 +109,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm\test3.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="Data\Field.cpp" />
+=======
+    <ClCompile Include="Client.cpp" />
+>>>>>>> opensiv
     <ClCompile Include="Data\Map.cpp" />
     <ClCompile Include="Gui\CreateMap.cpp" />
     <ClCompile Include="Gui\CreateParts.cpp" />
@@ -180,6 +184,10 @@
     <None Include="App\example\svm\a1a_training" />
     <None Include="App\example\test.toml" />
     <None Include="App\example\zip\zip_test.zip" />
+    <None Include="App\JsonData\command_5.json" />
+    <None Include="App\JsonData\command_6.json" />
+    <None Include="App\JsonData\field_0.json" />
+    <None Include="App\JsonData\field_1.json" />
     <None Include="App\nlp\japanese\jumanpp\LICENSE" />
     <None Include="App\nlp\japanese\jumanpp\README.md" />
   </ItemGroup>
@@ -244,6 +252,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="Client.h" />
+>>>>>>> opensiv
     <ClInclude Include="Data\Field.h" />
     <ClInclude Include="Data\Map.h" />
     <ClInclude Include="Gui\CreateMap.h" />
