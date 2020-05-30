@@ -109,11 +109,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm\test3.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="Data\Field.cpp" />
-=======
     <ClCompile Include="Client.cpp" />
->>>>>>> opensiv
     <ClCompile Include="Data\Map.cpp" />
     <ClCompile Include="Gui\CreateMap.cpp" />
     <ClCompile Include="Gui\CreateParts.cpp" />
@@ -252,10 +249,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <ClInclude Include="Client.h" />
->>>>>>> opensiv
     <ClInclude Include="Data\Field.h" />
     <ClInclude Include="Data\Map.h" />
     <ClInclude Include="Gui\CreateMap.h" />
